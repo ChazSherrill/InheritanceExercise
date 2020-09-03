@@ -29,11 +29,42 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            Bird baldEagle = new Bird();
+
+            baldEagle.Age = 32;
+            baldEagle.CanItFly = true;
+            baldEagle.ColorOfFeathers = "Brown and White";
+            baldEagle.IsItAwesome = true;
+            baldEagle.DoesItHaveLargeTalons = true;
+            baldEagle.LatinName = "Haliaeetus leucocephalus";
+            baldEagle.WingSpan = 7;
+            baldEagle.CommonName = "Bald Eagle";
+
+            baldEagle.PrintInfo();
+
+
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+
+            Reptiles tRex = new Reptiles();
+
+            tRex.Age = 144324;
+            tRex.NumberOfClaws = 6;
+            tRex.DetachableTail = false;
+            tRex.CommonName = "The Freaking T-REX";
+            tRex.LatinName = "Tyrannosaurus";
+            tRex.Biggness = "YUUUUGGGEE";
+            tRex.IsItADinosaur = true;
+
+            tRex.PrintInfo();
+
+
+
+
         }
     }
 }
